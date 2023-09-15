@@ -1,0 +1,66 @@
++++
+author = "Vladimir Likhanov"
+title = "First look at POEditor"
+date = "2023-15-09"
+description = "Localization platforms"
+featured = true
+draft = true
+tags = [
+    "POEditor"
+]
+categories = [
+    "Localization platforms"
+]
+thumbnail = "images/blog/poeditor/poeditor-logo.png"
++++
+
+> This article provides a first look at POEditor, a robust online localization and translation management
+platform designed for teams of any size. It focuses on its features, usability, and how it stands out in
+the localization and translation management landscape.
+
+In today's world, localization is no longer a nice-to-have. Globalisation has made it essential for companies
+looking to expand into new markets. This is where POEditor-a powerful online platform for localization and
+translation management-comes in.
+
+POEditor handles the tricky parts of localizing apps, websites, and software. It aims to make the translation
+process easier and more efficient. The tool is particularly useful for localizing texts in graphical user
+interfaces (GUIs). It supports many popular string formats, including JSON, YAML, and .properties.
+
+![POEditor dashboard](/images/blog/poeditor/poeditor-dashboard.png)
+
+## Key Features
+
+Listed below are some of the key features provided by POEditor.
+
+### Multiple translation options
+
+POEditor offers different ways to translate your content:
+
+* Assigning specific translators (also known as contributors) to projects
+* Ordering human translation services
+* Using machine translation (Google Translator, Microsoft Translator, or DeepL)
+* Crowdsourcing translations from the community
+
+![POEditor - inviting contributors](/images/blog/poeditor/poeditor-inviting-contributors.png)
+
+### Workflow automation and integrations
+
+The platform offers tools to automate recurring tasks in the localization process, including Automated Workflows with Pull Requests, Callbacks, and Webhooks.
+
+The platform has tools like Automated Workflows with Pull Requests, Callbacks, and Webhooks that can be used to handle tasks that are done over and over again in the localization process. Most of the time, webhooks are used to automate tasks.
+
+POEditor can be used with Azure Repos, Bitbucket, GitLab, and GitHub. Setting up, importing, and exporting work well with GitHub, but automated activities haven't been tested as much.
+
+POEditor can be connected to Slack and Microsoft Teams so that changes can be made in real time.
+
+### Glossary
+
+![POEditor - glossary](/images/blog/poeditor/poeditor-glossary.png)
+
+### Translation Memory
+
+![POEditor - translation memory](/images/blog/poeditor/poeditor-translation-memory.png)
+
+### Import/export
+
+### Rich statistics

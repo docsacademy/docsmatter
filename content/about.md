@@ -22,11 +22,11 @@ The DocsMatter website provides useful resources that can help you create good t
 Here, you can find information about modern technical writing tools and approaches, including
 
 * docs like code
-* Markdown
-* AsciiDoc
+* Markdown, AsciiDoc & Co.
 * Git and GitHub
-* static site generators (Hugo, Sphinx, and Gatsby)
-* documentation standards (e.g. XML and DITA)
+* Static site generators (e.g., Hugo)
+* Documentation standards (XML, DITA, etc.)
+* Localization platforms (Crowdin, POEditor, etc.)
 * and so on
 
 You will also learn about other technical documentation-related topics like translation management and video editing.
