@@ -1,20 +1,20 @@
 +++
 author = "Vladimir Likhanov"
 title = "First look at POEditor"
-date = "2023-15-09"
+date = "2023-08-15"
 description = "Localization platforms"
 featured = true
-draft = true
+draft = false
 tags = [
     "POEditor"
 ]
 categories = [
     "Localization platforms"
 ]
-thumbnail = "images/blog/poeditor/poeditor-logo.png"
+thumbnail = "images/blog/localization/poeditor-logo.png"
 +++
 
-> This article provides a first look at POEditor, a robust online localization and translation management
+> This article provides a brief overview POEditor, a robust online localization and translation management
 platform designed for teams of any size. It focuses on its features, usability, and how it stands out in
 the localization and translation management landscape.
 
@@ -26,7 +26,7 @@ POEditor handles the tricky parts of localizing apps, websites, and software. It
 process easier and more efficient. The tool is particularly useful for localizing texts in graphical user
 interfaces (GUIs). It supports many popular string formats, including JSON, YAML, and .properties.
 
-![POEditor dashboard](/images/blog/poeditor/poeditor-dashboard.png)
+![POEditor dashboard](/images/blog/localization/poeditor-dashboard.png)
 
 ## Key Features
 
@@ -41,7 +41,7 @@ POEditor offers different ways to translate your content:
 * Using machine translation (Google Translator, Microsoft Translator, or DeepL)
 * Crowdsourcing translations from the community
 
-![POEditor - inviting contributors](/images/blog/poeditor/poeditor-inviting-contributors.png)
+![POEditor - inviting contributors](/images/blog/localization/poeditor-inviting-contributors.png)
 
 ### Workflow automation and integrations
 
@@ -55,11 +55,11 @@ POEditor can be connected to Slack and Microsoft Teams so that changes can be ma
 
 ### Glossary
 
-![POEditor - glossary](/images/blog/poeditor/poeditor-glossary.png)
+![POEditor - glossary](/images/blog/localization/poeditor-glossary.png)
 
 ### Translation Memory
 
-![POEditor - translation memory](/images/blog/poeditor/poeditor-translation-memory.png)
+![POEditor - translation memory](/images/blog/localization/poeditor-translation-memory.png)
 
 ### Import/export
 
