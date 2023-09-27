@@ -20,19 +20,20 @@ The DocsMatter website provides useful resources that can help you create good t
 Here, you can find information about modern technical writing tools and approaches, including
 
 * docs like code
-* Markdown, AsciiDoc & Co.
+* Markdown and AsciiDoc
 * Git and GitHub
-* Static site generators (e.g., Hugo)
-* Documentation standards (XML, DITA, etc.)
-* Localization platforms (Crowdin, POEditor, etc.)
+* Static site generators (Hugo, Gatsby, etc.)
+* Documentation standards (e.g. XML and DITA)
 * and so on
 
-You will also learn about other technical documentation-related topics like translation management and video editing.
+You will also learn about other technical documentation-related topics like translation management, localization, and video editing.
 
 ## About technologies behind this website
 
-This website was built using the Hugo static site generator. For storing and delivering the site’s static content, Amazon Simple Storage Service (S3) and Amazon CloudFront (CDN) are used.
+The Hugo static site creator is used to make this website, and Azure Static Web Apps technology is used to make it live.
 
 The source content is created in Markdown, a lightweight markup language that can be written with any plain-text editor. As an editor, Visual Studio Code is used providing support for Markdown out of the box.
 
-All source files are stored in a local Git repository. At regular intervals, the content is pushed to a remote repository on GitHub. The repository on GitHub is integrated with Travis CI that takes care of continuous integration and delivery (CI / CD).
+All source files are stored in a local Git repository. At regular intervals, the content is pushed to a remote repository on GitHub. To monitor the changes in the repository, Azure Static Web Apps connects with GitHub directly. GitHub Actions starts an automatic build and release process whenever commits are pushed or pull requests are accepted into this repository. 
+
+The website includes picture assets, HTML, CSS, and JavaScript and does not need server-side rendering. This should provide good performance, quick deploymennt, seamless integration, and lower maintenance overhead.
