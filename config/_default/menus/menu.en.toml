@@ -14,7 +14,7 @@
   name = "github"
   type = "social"
   weight = 1
-  url = "https://github.com/docsmatter/docsmatter.org"
+  url = "https://github.com/docsacademy/docsmatter"
 [[social]]
   name = "linkedin"
   weight = 3
